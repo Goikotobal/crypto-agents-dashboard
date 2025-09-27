@@ -1,0 +1,21 @@
+# Core libraries
+ccxt==4.*              # Exchange API
+pandas==2.*            # Data handling
+numpy==1.*             # Arrays/math
+SQLAlchemy==2.*        # Database ORM
+python-dotenv==1.*     # Load .env
+PyYAML==6.*            # Config parsing
+
+# Backtesting & analysis
+vectorbt==0.26.*       # Strategy backtesting
+plotly==5.18.*         # Required by vectorbt (stable with heatmap fix)
+
+# Dashboard/UI
+streamlit==1.*         # Simple UI
+altair==5.*            # Optional charts in Streamlit
+# ...
+vectorbt==0.26.*
+plotly==5.18.*
+llvmlite==0.45.0
+numba==0.62.0
+numpy==1.26.4

@@ -1,0 +1,22 @@
+agents:
+  dca:
+    enabled: true
+    symbol: "BTC/USDT"
+    interval_minutes: 1440  # once a day
+    buy_amount: 0.0001      # ~ $11 at current BTC price
+
+  miner:
+    enabled: true
+    symbol: "BTC/USDT"
+    interval_minutes: 1440  # once a day
+    base_fee: 0.00005       # sell tiny amount
+
+  momentum:
+    enabled: true
+    symbols: ["BTC/USDT", "ETH/USDT"]
+
+  thesis:
+    enabled: true
+    symbol: "BTC/USDT"
+    bet_direction: "down"
+    active_after: "2025-09-26"  # today
